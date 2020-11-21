@@ -8,9 +8,16 @@ Per installarlo basta che scarichiate lo zip del repo e da QGis fate installa pl
 
 ### Finestra processing
 
-Il plugin, una volta caricato, compare negli script di processing nella cartella HTML
+Il plugin, una volta caricato, compare negli script di processing nella cartella CALC
 
-Replica il layer corrente aggiungendo un nuovo campo con il risultato di uno seguenti calcoli:
+![uno](images/processing.png)
+
+La finestra permette la scelta delle operazioni sul campo:
+
+![uno](images/finestra.png)
+
+
+Il plugin permette crea una copia del layer aggiungendo un nuovo campo con il risultato di uno seguenti calcoli:
 
     progressiva,
     % sul totale,
@@ -21,7 +28,9 @@ Replica il layer corrente aggiungendo un nuovo campo con il risultato di uno seg
 
 Il campo risultante generato ha lo stesso nome delcampo di origine più un suffisso automatico che richiama il calcolo es: lunghezza ->> lunghezza_prog
 
-Il nuovo layer ha per nome Calc_ + timestamp
+Il nuovo layer ha per nome Calc_ + timestamp e sarà temporaneo
+
+E' possibile ripetere l'operazione sui layer generati
 
 ### Avvertenze
 
@@ -30,6 +39,8 @@ La variazione e la variazione % necessitano di layer NON TEMPORANEI
 La variazione % da 0 a un qualsiasi valore è indicata con 9999999
 
 ### PARAMETRI AVANZATI
+
+![uno](images/parametri_avanzati.png)
 
     Opzionalmente è possibile inserire:
     - il valore della progressiva di partenza;
