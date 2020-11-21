@@ -1,4 +1,5 @@
 # CalcOnField
+Calcola la progressiva, la % sul totale, la media mobile,, la media ponderata, la variazione e la variazione % su un set di campi 
 
 ## Qgis Plugin per processing
 
