@@ -26,17 +26,11 @@ Il plugin permette crea una copia del layer aggiungendo un nuovo campo con il ri
     variazione,
     variazione % calcolata con ordinamento per id record
 
-Il campo risultante generato ha lo stesso nome delcampo di origine più un suffisso automatico che richiama il calcolo es: lunghezza ->> lunghezza_prog
+Il campo risultante ha lo stesso nome del campo di origine più un suffisso automatico che richiama il calcolo es: lunghezza ->> `lunghezza_prog`
 
-Il nuovo layer ha per nome Calc_ + timestamp e sarà temporaneo
+Il nuovo layer temporaneo ha per nome `Calc_ + timestamp`
 
-E' possibile ripetere l'operazione sui layer generati
-
-### Avvertenze
-
-La variazione e la variazione % necessitano di layer NON TEMPORANEI
-
-La variazione % da 0 a un qualsiasi valore è indicata con 9999999
+E' possibile ripetere l'operazione sui layer generati con la sola eccezione del calcolo della variazione e della variazione%
 
 ### PARAMETRI AVANZATI
 
@@ -44,6 +38,16 @@ La variazione % da 0 a un qualsiasi valore è indicata con 9999999
 
     Opzionalmente è possibile inserire:
     - il valore della progressiva di partenza;
-	- ulteriore suffisso es: `lunghezza_prog` + `_gruppoA`;
+	- ulteriore postfisso es: `lunghezza_prog` + `_gruppo` = `lunghezza_prog_gruppo`;
     - campo con l'id record utilizzato dall'ordinamento del calcolo;
     - 5 decimali anzichè 3 se le % lo richiedessero".
+
+### Avvertenze
+
+La variazione e la variazione % necessitano di layer NON TEMPORANEI
+
+La variazione % da 0 a un qualsiasi valore è indicata con 9999999
+
+### Ringraziamenti
+[QGIS.org](https://www.qgis.org/it/site/) - [Totò Fiandaca](https://pigrecoinfinito.com/) 
+
