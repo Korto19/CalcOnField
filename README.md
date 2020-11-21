@@ -1,21 +1,21 @@
 # CalcOnField
 
-##Qgis Plugin per processing
+## Qgis Plugin per processing
 
-##Installazione
+### Installazione
 
 Per installarlo basta che scarichiate lo zip del repo e da QGis fate installa plugin da zip. Spero a breve sia disponibile nel repository ufficiale di QGis.
 
-##Finestra processing
+### Finestra processing
 
 Il plugin, una volta caricato, compare negli script di processing nella cartella HTML
 
-Replica il layer corrente aggiungendo un nuovo campo con il risultato dei seguenti calcoli:
+Replica il layer corrente aggiungendo un nuovo campo con il risultato di uno seguenti calcoli:
 
     progressiva,
     % sul totale,
     media mobile,
-    media ponderata, [è un parametro]
+    indice media ponderata, [è un parametro]
     variazione,
     variazione % calcolata con ordinamento per id record
 
@@ -23,16 +23,16 @@ Il campo risultante generato ha lo stesso nome delcampo di origine più un suffi
 
 Il nuovo layer ha per nome Calc_ + timestamp
 
-##Avvertenze
+### Avvertenze
 
 La variazione e la variazione % necessitano di layer NON TEMPORANEI
 
 La variazione % da 0 a un qualsiasi valore è indicata con 9999999
 
-##PARAMETRI AVANZATI
+### PARAMETRI AVANZATI
 
     Opzionalmente è possibile inserire:
     - il valore della progressiva di partenza;
 	- ulteriore suffisso es: `lunghezza_prog` + `_gruppoA`;
-    - campo con l'id del record utilizzato dall'ordinamento del calcolo;
+    - campo con l'id record utilizzato dall'ordinamento del calcolo;
     - 5 decimali anzichè 3 se le % lo richiedessero".
