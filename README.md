@@ -1,7 +1,6 @@
 # CalcOnField
-Calcoli su campo
 
-Qgis Plugin per processing
+##Qgis Plugin per processing
 
 ##Installazione
 
@@ -23,13 +22,14 @@ Replica il layer corrente aggiungendo un nuovo campo con il risultato dei seguen
 Il campo risultante generato ha lo stesso nome delcampo di origine più un suffisso automatico che richiama il calcolo es: lunghezza ->> lunghezza_prog
 
 Il nuovo layer ha per nome Calc_ + timestamp
-Avvertenze
+
+##Avvertenze
 
 La variazione e la variazione % necessitano di layer NON TEMPORANEI
 
 La variazione % da 0 a un qualsiasi valore è indicata con 9999999
 
-PARAMETRI AVANZATI
+##PARAMETRI AVANZATI
 
     Opzionalmente è possibile inserire:
     - il valore della progressiva di partenza;
