@@ -12,8 +12,8 @@ email=giulio.fattori@tin.it
 
 about=Calcoli sui campi quali Progressiva, Media, Media Mobile, Indice Media Ponderata, Percentuale, Variazione Percentuale
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/Korto19/CalcOnField/issues
+repository=https://github.com/Korto19/CalcOnField
 # End of mandatory metadata
 
 # Recommended items:
