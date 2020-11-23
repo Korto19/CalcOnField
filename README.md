@@ -1,12 +1,12 @@
 # CalcOnField
-## Qgis Plugin per processing
+## QGIS Plugin per processing
 Calcola la progressiva, la % sul totale, la media mobile,, la media ponderata, la variazione e la variazione % su un set di campi 
 
 
 
 ### Installazione
 
-Per installarlo basta che scarichiate lo zip del repo e da QGis fate installa plugin da zip. Spero a breve sia disponibile nel repository ufficiale di QGis.
+Per installarlo basta che scarichiate lo zip del repo e da QGIS fate installa plugin da zip. Spero a breve sia disponibile nel repository ufficiale di QGIS.
 
 ### Finestra processing
 
