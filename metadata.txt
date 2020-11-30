@@ -6,7 +6,7 @@
 name=CalcOnfield
 qgisMinimumVersion=3.0
 description=Calculus on field - Calcoli su campo
-version=1.1
+version=1.2
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 
