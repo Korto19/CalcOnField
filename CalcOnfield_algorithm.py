@@ -127,9 +127,7 @@ class CalcOnfieldAlgorithm(QgsProcessingAlgorithm):
         should provide a basic description about what the algorithm does and the
         parameters and outputs associated with it..
         """
-        return self.tr(
-        "<mark style='color:black; font-size: 8px'><strong>Version 1.00 20.11.2020</strong></mark>\n\
-        Replica il layer aggiungendo un nuovo campo con: \n progressiva,\
+        return self.tr("Replica il layer aggiungendo un nuovo campo con: \n progressiva,\
          % sul totale,  media mobile, indice media ponderata, variazione e variazione % calcolata su ordinamento per id record\n\
         <mark style='color:blue'><strong>OPZIONI</strong></mark>\n\
         <i>\n- il valore della progressiva di partenza\

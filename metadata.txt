@@ -6,7 +6,7 @@
 name=CalcOnfield
 qgisMinimumVersion=3.0
 description=Calculus on field - Calcoli su campo
-version=1.01
+version=1.1
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 
@@ -22,7 +22,7 @@ repository=https://github.com/Korto19/CalcOnField
 
 hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
-# changelog=
+# changelog= 30.11.2020 - minor fixes
 
 # Tags are comma separated with spaces allowed
 tags=python
@@ -31,7 +31,7 @@ homepage=https://github.com/Korto19/CalcOnField#calconfield
 category=Processing, script
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
